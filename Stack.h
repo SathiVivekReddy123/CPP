@@ -5,7 +5,7 @@ using namespace std;
 const int n = 100;
 void push(int st[],int &top,int val){
     if(top==n-1){
-        cout << "Stack Overflown";
+        cout << "Stack Overflow";
     }
     else{
         st[++top]=val;
@@ -13,7 +13,7 @@ void push(int st[],int &top,int val){
 }
 void pop(int st[],int &top){
     if(top<0){
-        cout << "Stack Overflown";
+        cout << "Stack Underflow";
     }
     else{
         top--;
